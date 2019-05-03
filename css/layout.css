@@ -213,6 +213,8 @@ ul#nav li.current a { color: #F06000; }
    line-height: 30px;
    color: #7A7A7A;
 }
+
+
 #about .profile-pic {
    position: relative;
    width: 220px;
@@ -398,6 +400,11 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }
+.jwt {
+   width: 68%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
 .git {
    width: 68%;
    -moz-animation: jquery 2s ease;
@@ -461,6 +468,10 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes jpa-hibernate {
    0%   { width: 0px;  }
    100% { width: 75%;  }
+ }
+ @-webkit-keyframes jwt {
+   0%   { width: 0px;  }
+   100% { width: 68%;  }
  }
  @-webkit-keyframes git {
    0%   { width: 0px;  }
